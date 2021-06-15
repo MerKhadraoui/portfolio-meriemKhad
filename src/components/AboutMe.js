@@ -1,4 +1,5 @@
+import React from "react";
 const AboutMe = () => {
-  return <div> about me </div>;
+  return <React.Fragment>about me</React.Fragment>;
 };
 export default AboutMe;
