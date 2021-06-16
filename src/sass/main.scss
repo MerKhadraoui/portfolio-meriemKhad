@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import "react-slideshow-image/dist/styles.css";
+body {
+  font-family: "IBM Plex Mono", monospace;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(
+    to right,
+    rgb(235, 239, 241),
+    rgb(186, 199, 194),
+    rgb(214, 208, 218),
+    rgb(186, 199, 194),
+    rgb(199, 171, 218),
+    rgb(186, 199, 194),
+    rgb(235, 239, 241)
+  );
+}
+.about,
+.home,
+.skills {
+  height: 83vh;
+}
+.logo h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    to left,
+    rgb(155, 118, 155),
+    rgb(199, 171, 218),
+    #c4e2d1
+  );
+  position: absolute;
+  left: 1rem;
+  font-family: "Dancing Script", cursive;
+}
+.img-slider img {
+  width: 30rem;
+  height: 30rem;
+
+  border-radius: 10%;
+}
+.img-slider {
+  display: block;
+  margin-left: 2rem;
+  padding-left: 20%;
+  padding-right: 45%;
+}
+.GalaryFoto {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+  margin: 2rem;
+}
+li:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+.GalaryFoto .picture {
+  padding: 1rem;
+  width: 18rem;
+  height: 15rem;
+  border-radius: 10%;
+}
+.GalaryFoto .picture:hover {
+  width: 18.5rem;
+  height: 15.5rem;
+  box-shadow: 10px 5px 5px rgb(100, 99, 99);
+}
+.main-page {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.link-button {
+  background-image: linear-gradient(
+    to left,
+    rgb(155, 118, 155),
+    rgb(199, 171, 218),
+    #c4e2d1
+  );
+  width: 10rem;
+  height: 2rem;
+}
+.link-button:hover {
+  background-image: linear-gradient(
+    to left,
+    rgb(122, 85, 122),
+    rgb(102, 63, 128),
+    #3e7254
+  );
+  color: white;
+  border: 2px solid #00cec9;
+}
+.menu,
+.footer,
+.contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  justify-items: center;
+
+  width: 100vw;
+  height: 7vh;
+  background-color: azure;
+}
+.footer {
+  position: inherit;
+  bottom: 2rem;
+}
+li {
+  padding: 1rem;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}

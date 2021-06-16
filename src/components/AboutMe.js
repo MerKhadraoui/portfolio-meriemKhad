@@ -1,5 +1,5 @@
 import React from "react";
 const AboutMe = () => {
-  return <React.Fragment>about me</React.Fragment>;
+  return <div className="about">about me</div>;
 };
 export default AboutMe;

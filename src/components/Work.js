@@ -1,4 +1,4 @@
 const Work = () => {
-  return <div>my work</div>;
+  return <ul className="gallery">data</ul>;
 };
 export default Work;

@@ -1,0 +1,83 @@
+[
+  {
+    "id": 0,
+    "text": "User Interface graphic for Befor Afther App",
+    "techno": " Technology used: react, javaScript, json, scss",
+    "title": "Befor Afther App",
+    "link": "https://merkhadraoui.github.io/-beforeAndafter-/",
+    "img": "./img/beforAfther.png"
+  },
+  {
+    "id": 1,
+
+    "text": "User Interface graphic for  Country calling codes ",
+    "techno": " Technology used: react, javaScript, json, scss",
+    "title": " Country calling codes",
+    "link": "https://merkhadraoui.github.io/countries-callingcodes/",
+    "img": "./img/callingCodes.png"
+  },
+  {
+    "id": 2,
+    "text": "User Interface graphic for  MEsurments to converte ",
+    "techno": "Technology used: javaScript, Html, scss",
+    "title": "MEsurments to converte",
+    "link": "https://merkhadraoui.github.io/UnitsMeasurement/",
+    "img": "./img/convertMesurment.png"
+  },
+  {
+    "id": 3,
+    "text": "User Interface graphic for instagram App",
+    "techno": " Technology used: react, javaScript, json, scss ",
+    "title": "instagram App",
+    "link": "https://merkhadraoui.github.io/instagram-app/",
+    "img": "./img/instagram-App.png"
+  },
+  {
+    "id": 4,
+    "text": "User Interface graphic for mobil App ",
+    "techno": "Technology used: Html, javaScript, css",
+    "title": "mobile App",
+    "link": "https://merkhadraoui.github.io/MobileApp/#",
+    "img": "./img/mobileApp.png"
+  },
+  {
+    "id": 5,
+    "text": "User Interface graphic for notBook  ",
+    "techno": "Technology used: Html, javaScript,DOM, css",
+    "title": "notBook ",
+    "link": "https://merkhadraoui.github.io/noteBook-app/",
+    "img": "./img/notbook.png"
+  },
+  {
+    "id": 6,
+    "text": "User Interface graphic for periodec table  ",
+    "techno": " Technology used: Html,  css",
+    "title": "periodec table",
+    "link": "https://merkhadraoui.github.io/periodicTable/",
+    "img": "./img/periodecTable.png"
+  },
+  {
+    "id": 7,
+    "text": "User Interface graphic for time App ",
+    "techno": " Technology used: Html, scss,javaScript",
+    "title": "time App",
+    "link": "https://merkhadraoui.github.io/timeApps/",
+    "img": "./img/timeApp.png"
+  },
+  {
+    "id": 8,
+    "text": "User Interface graphic for ToDo list ",
+    "techno": " Technology used: Html, javaScript, React, css",
+    "title": "Todo List",
+    "link": "https://merkhadraoui.github.io/todo-list-react/",
+    "img": "./img/todo-list.png"
+  },
+  {
+    "id": 9,
+    "text": "User Interface graphic for youtube page  ",
+    "techno": "Technology used: Html, javaScript,DOM, css",
+    "title": "youtube page",
+    "link": "https://merkhadraoui.github.io/youtube-surface/",
+    "img": "./img/youtub.png"
+  }
+]
