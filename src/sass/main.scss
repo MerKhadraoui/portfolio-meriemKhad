@@ -16,11 +16,7 @@ body {
     rgb(235, 239, 241)
   );
 }
-.about,
-.home,
-.skills {
-  height: 83vh;
-}
+
 .logo h1 {
   display: flex;
   justify-content: center;
@@ -46,7 +42,7 @@ body {
 }
 .img-slider {
   display: block;
-  margin-left: 2rem;
+
   padding-left: 20%;
   padding-right: 45%;
 }
@@ -117,4 +113,9 @@ li {
 }
 a {
   text-decoration: none;
+}
+.about,
+.home,
+.skills {
+  height: 83vh;
 }
