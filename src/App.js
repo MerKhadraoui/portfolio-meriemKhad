@@ -32,7 +32,7 @@ function App() {
   return (
     <Router>
       <Menu />
-      <Home></Home>
+
       <Switch>
         <Route path="/" exact component={Home} />
 

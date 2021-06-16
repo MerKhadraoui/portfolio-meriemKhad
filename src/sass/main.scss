@@ -103,10 +103,7 @@ li:nth-child(2n) {
   height: 7vh;
   background-color: azure;
 }
-.footer {
-  position: inherit;
-  bottom: 2rem;
-}
+
 li {
   padding: 1rem;
   list-style: none;
@@ -118,4 +115,8 @@ a {
 .home,
 .skills {
   height: 83vh;
+}
+.about {
+  width: 60%;
+  padding: 2rem;
 }
