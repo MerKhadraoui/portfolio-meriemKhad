@@ -1,16 +1,21 @@
 import React from "react";
 import { Slide, Fade } from "react-slideshow-image";
 import Img from "./img.json";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCameraRetro } from "@fortawesome/free-solid-svg-icons";
 const Home = () => {
   console.log(Img);
-
+  const came = <FontAwesomeIcon icon={faCameraRetro} />;
   return (
     <div className="home">
-      <h1 className="main-page">
-        Hi ! I'm Meriem Khadraoui, a Junior web developer
-      </h1>
+      <div>
+        <h1 className="main-page">
+          Hi ! I'm Meriem Khadraoui, a Junior web developer
+        </h1>
+      </div>
 
       <div className="img-slider">
+        <h2>From my gallery {came} </h2>
         <ul>
           {" "}
           <Slide>

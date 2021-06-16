@@ -42,9 +42,8 @@ body {
 }
 .img-slider {
   display: block;
-
   padding-left: 20%;
-  padding-right: 45%;
+  padding-right: 40%;
 }
 .GalaryFoto {
   display: flex;
@@ -70,7 +69,9 @@ li:nth-child(2n) {
   display: flex;
   justify-content: center;
   justify-items: center;
+  padding: 1rem;
 }
+
 .link-button {
   background-image: linear-gradient(
     to left,
@@ -92,18 +93,24 @@ li:nth-child(2n) {
   border: 2px solid #00cec9;
 }
 .menu,
-.footer,
 .contact {
   display: flex;
   justify-content: center;
   flex-direction: row;
   justify-items: center;
-
   width: 100vw;
   height: 7vh;
   background-color: azure;
 }
+.footer {
+  display: flex;
 
+  position: absolute;
+  bottom: 0rem;
+  background-color: whitesmoke;
+  width: 100vw;
+  height: 7vh;
+}
 li {
   padding: 1rem;
   list-style: none;
@@ -118,5 +125,5 @@ a {
 }
 .about {
   width: 60%;
-  padding: 2rem;
+  padding: 4rem;
 }

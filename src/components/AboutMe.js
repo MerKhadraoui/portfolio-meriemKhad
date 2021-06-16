@@ -2,6 +2,8 @@ import React from "react";
 const AboutMe = () => {
   return (
     <div className="about">
+      <img src="" />
+      <h1>About Me </h1>
       <h2>my biggest strengths</h2>
       <p>
         <h3> UX advocacy & relationship building</h3> Through facilitated
