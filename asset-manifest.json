@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio-meriemKhad/static/css/main.ad674cb7.chunk.css",
-    "main.js": "/portfolio-meriemKhad/static/js/main.d137296a.chunk.js",
-    "main.js.map": "/portfolio-meriemKhad/static/js/main.d137296a.chunk.js.map",
+    "main.css": "/portfolio-meriemKhad/static/css/main.d62699e1.chunk.css",
+    "main.js": "/portfolio-meriemKhad/static/js/main.8da2dfbb.chunk.js",
+    "main.js.map": "/portfolio-meriemKhad/static/js/main.8da2dfbb.chunk.js.map",
     "runtime-main.js": "/portfolio-meriemKhad/static/js/runtime-main.9fa85baa.js",
     "runtime-main.js.map": "/portfolio-meriemKhad/static/js/runtime-main.9fa85baa.js.map",
     "static/css/2.30a4eb23.chunk.css": "/portfolio-meriemKhad/static/css/2.30a4eb23.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.76130ac3.chunk.js.map": "/portfolio-meriemKhad/static/js/2.76130ac3.chunk.js.map",
     "index.html": "/portfolio-meriemKhad/index.html",
     "static/css/2.30a4eb23.chunk.css.map": "/portfolio-meriemKhad/static/css/2.30a4eb23.chunk.css.map",
-    "static/css/main.ad674cb7.chunk.css.map": "/portfolio-meriemKhad/static/css/main.ad674cb7.chunk.css.map",
+    "static/css/main.d62699e1.chunk.css.map": "/portfolio-meriemKhad/static/css/main.d62699e1.chunk.css.map",
     "static/js/2.76130ac3.chunk.js.LICENSE.txt": "/portfolio-meriemKhad/static/js/2.76130ac3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9fa85baa.js",
     "static/css/2.30a4eb23.chunk.css",
     "static/js/2.76130ac3.chunk.js",
-    "static/css/main.ad674cb7.chunk.css",
-    "static/js/main.d137296a.chunk.js"
+    "static/css/main.d62699e1.chunk.css",
+    "static/js/main.8da2dfbb.chunk.js"
   ]
 }
