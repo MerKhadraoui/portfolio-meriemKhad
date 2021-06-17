@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 import Menu from "./components/Menu";
 import Home from "./components/Home";
 import Work from "./components/Work";
@@ -34,8 +39,11 @@ function App() {
       <Menu />
 
       <Switch>
+        {" "}
+        <Route exact path="/">
+          <Redirect to="/home" />
+        </Route>
         <Route path="/" exact component={Home} />
-
         <Route path="/work" exact component={Work}>
           <div className="gallery-box">
             {" "}
