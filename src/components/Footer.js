@@ -11,7 +11,7 @@ const Footer = () => {
   const linked = <FontAwesomeIcon icon={faLink} />;
   const email = <FontAwesomeIcon icon={faPaperPlane} />;
   const pdf = <FontAwesomeIcon icon={faCloudDownloadAlt} />;
-
+  const year = new Date().getFullYear();
   return (
     <nav className="footer">
       <Link to="/">
@@ -29,15 +29,21 @@ const Footer = () => {
           {linked} LinkedIn{" "}
         </a>
       </li>
-
-      <li>
+      <Link to="/ContactForm">
+        <li>{email} e-mail</li>
+      </Link>
+      {/* <li>
         {" "}
-        <a href="miyakhad@gmail.com">{email} e-mail</a>
-      </li>
+        <a href="miyakhad@gmail.com">e-mail</a>
+      </li> */}
       {/* </Link> */}
       <Link to="./pdf/test.pdf" target="_blank" download>
         <li> CV PDF{pdf}</li>
       </Link>
+      <div>
+        <h4 className="year">create by Meriem Khadraoui {year} </h4>
+        <h4 className="email">miyakhad@gmail.com</h4>{" "}
+      </div>
     </nav>
   );
 };

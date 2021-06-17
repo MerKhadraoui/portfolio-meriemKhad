@@ -80,9 +80,9 @@ li:nth-child(2n) {
 .link-button {
   background-image: linear-gradient(
     to left,
-    rgb(155, 118, 155),
+    rgb(158, 141, 158),
     rgb(199, 171, 218),
-    #c4e2d1
+    #b1beb7
   );
   width: 10rem;
   height: 2rem;
@@ -90,9 +90,9 @@ li:nth-child(2n) {
 .link-button:hover {
   background-image: linear-gradient(
     to left,
-    rgb(122, 85, 122),
-    rgb(102, 63, 128),
-    #3e7254
+    rgb(192, 177, 192),
+    rgb(169, 161, 175),
+    #7e9688
   );
   color: white;
   border: 2px solid #00cec9;
@@ -150,14 +150,11 @@ h3 {
 }
 // about me animation
 
-.words {
-  color: #581950;
-  font-size: 0;
+.words,
+.skill-word {
   line-height: 1.5;
-}
-
-.words span {
-  font-size: 5rem;
+  color: #581950;
+  font-size: 2rem;
   display: inline-block;
   animation: move 3s ease-in-out infinite;
 }
@@ -174,26 +171,60 @@ h3 {
   }
 }
 
-.words span:nth-child(2) {
-  animation-delay: 0.5s;
+// .words span:nth-child(2) {
+//   animation-delay: 0.5s;
+// }
+
+// .words span:nth-child(3) {
+//   animation-delay: 1s;
+// }
+
+// .words span:nth-child(4) {
+//   animation-delay: 1.5s;
+// }
+
+// .words span:nth-child(5) {
+//   animation-delay: 2s;
+// }
+
+// .words span:nth-child(6) {
+//   animation-delay: 2.5s;
+// }
+
+// .words span:nth-child(7) {
+//   animation-delay: 3s;
+// }
+// skills component
+.skills {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+  color: #581950;
+}
+// contact me form
+.contactMe {
+  padding-left: 25%;
+  width: 40%;
+
+  div {
+    padding: 1rem;
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+  }
 }
 
-.words span:nth-child(3) {
-  animation-delay: 1s;
+.year {
+  display: flex;
+  color: #581950;
+  position: fixed;
+  left: 1rem;
 }
-
-.words span:nth-child(4) {
-  animation-delay: 1.5s;
-}
-
-.words span:nth-child(5) {
-  animation-delay: 2s;
-}
-
-.words span:nth-child(6) {
-  animation-delay: 2.5s;
-}
-
-.words span:nth-child(7) {
-  animation-delay: 3s;
+.email {
+  display: flex;
+  color: #581950;
+  position: fixed;
+  right: 1rem;
 }

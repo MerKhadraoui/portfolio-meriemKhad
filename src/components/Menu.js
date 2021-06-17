@@ -25,6 +25,9 @@ const Menu = () => {
       <Link to="/aboutme">
         <li>{bookReader} About me </li>
       </Link>
+      <Link to="/ContactForm">
+        <li>{bookReader} Contact me </li>
+      </Link>
     </nav>
   );
 };
