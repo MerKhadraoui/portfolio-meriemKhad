@@ -3,9 +3,11 @@ import { Slide, Fade } from "react-slideshow-image";
 import Img from "./img.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCameraRetro } from "@fortawesome/free-solid-svg-icons";
+
 const Home = () => {
   console.log(Img);
   const came = <FontAwesomeIcon icon={faCameraRetro} />;
+
   return (
     <div className="home">
       <div>
