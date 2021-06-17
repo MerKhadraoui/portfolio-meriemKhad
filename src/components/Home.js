@@ -14,9 +14,9 @@ const Home = () => {
         </h1>
       </div>
 
-      <div className="img-slider">
+      <div>
         <h2>From my gallery {came} </h2>
-        <ul>
+        <ul className="img-slider">
           {" "}
           <Slide>
             {Img.map((obj) => (
