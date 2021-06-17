@@ -17,19 +17,24 @@ const Footer = () => {
       <Link to="/">
         <li>Home</li>
       </Link>
-      <Link to="/product" className="contact">
-        <li>
-          <a href="https://github.com/MerKhadraoui">{github} My GH</a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/meriem-khadraoui-a93b24107/">
-            {linked} LinkedIn
-          </a>
-        </li>
-        <li>
-          <a href="miyakhad@gmail.com">{email} e-mail</a>
-        </li>
-      </Link>
+      {/* <Link to="/product" className="contact"> */}
+      <li>
+        {" "}
+        <a href="https://github.com/MerKhadraoui"> {github} My GH</a>
+      </li>
+
+      <li>
+        {" "}
+        <a href="https://www.linkedin.com/in/meriem-khadraoui-a93b24107/">
+          {linked} LinkedIn{" "}
+        </a>
+      </li>
+
+      <li>
+        {" "}
+        <a href="miyakhad@gmail.com">{email} e-mail</a>
+      </li>
+      {/* </Link> */}
       <Link to="./pdf/test.pdf" target="_blank" download>
         <li> CV PDF{pdf}</li>
       </Link>

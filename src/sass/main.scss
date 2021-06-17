@@ -42,8 +42,8 @@ body {
 }
 .img-slider {
   display: block;
-  padding-left: 20%;
-  padding-right: 40%;
+  padding-left: 2rem;
+  padding-right: 65%;
 }
 .GalaryFoto {
   display: flex;
@@ -104,12 +104,15 @@ li:nth-child(2n) {
 }
 .footer {
   display: flex;
-
-  position: absolute;
+  justify-content: center;
+  position: fixed;
   bottom: 0rem;
-  background-color: whitesmoke;
+  background-color: rgba(245, 245, 245, 0.377);
   width: 100vw;
   height: 7vh;
+}
+footer a:hover {
+  background-color: rgba(170, 132, 132, 0.781);
 }
 li {
   padding: 1rem;
