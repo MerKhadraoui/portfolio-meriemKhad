@@ -36,15 +36,13 @@ body {
   font-family: "Dancing Script", cursive;
 }
 .img-slider img {
-  width: 30rem;
-  height: 30rem;
-
+  width: 50%;
+  height: 50%;
   border-radius: 10%;
+  padding: 5%;
 }
 .img-slider {
   display: block;
-  padding-left: 2rem;
-  padding-right: 66%;
 }
 .home {
   padding: 2rem;
@@ -52,8 +50,6 @@ body {
 .GalaryFoto {
   display: flex;
   justify-content: space-evenly;
-  padding: 1rem;
-  margin: 2rem;
 }
 li:nth-child(2n) {
   flex-direction: row-reverse;
@@ -64,9 +60,7 @@ li:nth-child(2n) {
   height: 15rem;
   border-radius: 10%;
 }
-.GalaryFoto .picture:hover {
-  width: 18.5rem;
-  height: 15.5rem;
+.GalaryFoto img:hover {
   box-shadow: 10px 5px 5px rgb(100, 99, 99);
 }
 .main-page {
@@ -107,6 +101,16 @@ li:nth-child(2n) {
   height: 7vh;
   background-color: azure;
 }
+@media screen and (min-width: 800px) {
+  .nemu {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 4px;
+  }
+}
+
 .footer {
   display: flex;
   justify-content: center;
@@ -117,7 +121,7 @@ li:nth-child(2n) {
   height: 7vh;
 }
 .footer li:hover {
-  background-color: rgba(170, 132, 132, 0.781);
+  color: rgba(170, 132, 132, 0.781);
 }
 li {
   padding: 1rem;
@@ -155,6 +159,7 @@ h3 {
   line-height: 1.5;
   color: #581950;
   font-size: 2rem;
+  padding: 3rem;
   display: inline-block;
   animation: move 3s ease-in-out infinite;
 }

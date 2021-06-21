@@ -37,7 +37,7 @@ const Footer = () => {
         <a href="miyakhad@gmail.com">e-mail</a>
       </li> */}
       {/* </Link> */}
-      <Link to="./pdf/test.pdf" target="_blank" download>
+      <Link to="./pdf/miyakhad-cv.pdf" target="_blank" download>
         <li> CV PDF{pdf}</li>
       </Link>
       <div>
