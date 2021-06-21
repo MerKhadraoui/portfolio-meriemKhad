@@ -35,20 +35,34 @@ body {
   left: 1rem;
   font-family: "Dancing Script", cursive;
 }
-.img-slider img {
-  width: 50%;
-  height: 50%;
-  border-radius: 10%;
+
+.my-img {
+  display: inline-block;
+  padding-right: 3rem;
 }
+
 .img-slider {
   display: block;
+  width: 700px;
 }
-.home {
-  padding: 2rem;
+.main-page {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  padding: 1rem;
 }
-.GalaryFoto {
+
+// skills component
+.skills {
   display: flex;
   justify-content: space-evenly;
+  padding: 1rem;
+  color: #581950;
+}
+// contact me form
+.contactMe {
+  padding-left: 25%;
+  width: 40%;
 }
 li:nth-child(2n) {
   flex-direction: row-reverse;
@@ -61,13 +75,6 @@ li:nth-child(2n) {
 }
 .GalaryFoto img:hover {
   box-shadow: 10px 5px 5px rgb(100, 99, 99);
-}
-.main-page {
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-
-  padding: 1rem;
 }
 
 .link-button {
@@ -166,29 +173,6 @@ h3 {
   }
 }
 
-// .words span:nth-child(2) {
-//   animation-delay: 0.5s;
-// }
-
-// .words span:nth-child(3) {
-//   animation-delay: 1s;
-// }
-
-// .words span:nth-child(4) {
-//   animation-delay: 1.5s;
-// }
-
-// .words span:nth-child(5) {
-//   animation-delay: 2s;
-// }
-
-// .words span:nth-child(6) {
-//   animation-delay: 2.5s;
-// }
-
-// .words span:nth-child(7) {
-//   animation-delay: 3s;
-// }
 // skills component
 .skills {
   display: flex;
@@ -239,8 +223,12 @@ h3 {
     .footer {
       background-color: rgba(245, 245, 245, 0.377);
     }
+    // .img-slider img {
+    //   padding-left: 3rem;
+    // }
     .home {
       display: block;
     }
   }
 }
+// box animation
