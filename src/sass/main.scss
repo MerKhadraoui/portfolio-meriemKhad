@@ -101,15 +101,6 @@ li:nth-child(2n) {
   height: 7vh;
   background-color: azure;
 }
-@media screen and (min-width: 800px) {
-  .nemu {
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    left: 4px;
-  }
-}
 
 .footer {
   display: flex;
@@ -232,4 +223,25 @@ h3 {
   color: #581950;
   position: fixed;
   right: 1rem;
+}
+@media only screen and (max-width: 1240px) {
+  .footer,
+  .address,
+  .contact,
+  .menu {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+
+    .footer {
+      background-color: rgba(245, 245, 245, 0.377);
+    }
+    .home {
+      display: block;
+    }
+  }
 }
