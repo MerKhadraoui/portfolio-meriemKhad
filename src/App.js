@@ -24,7 +24,7 @@ function App() {
         {" "}
         <h2>{obj.title}</h2> <h3>{obj.text}</h3>
         <h4>{obj.techno} </h4>
-        <a href={obj.link}>
+        <a href={obj.link} target="_blank">
           <button className="link-button">see more </button>{" "}
         </a>
       </div>

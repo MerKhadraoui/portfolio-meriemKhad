@@ -1,0 +1,17 @@
+// skills component
+.skills {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+  color: #581950;
+}
+
+.words,
+.skill-word {
+  line-height: 1.5;
+  color: #581950;
+  font-size: 2rem;
+  padding: 3rem;
+  display: inline-block;
+  animation: move 3s ease-in-out infinite;
+}

@@ -15,7 +15,7 @@ const Home = () => {
           Hi ! I'm Meriem Khadraoui, a Junior web developer
         </h1>
       </div>
-
+      <div className="line"></div>
       <div>
         <h2>From my gallery {came} </h2>
 

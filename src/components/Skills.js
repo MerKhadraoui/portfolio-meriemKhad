@@ -2,7 +2,9 @@ import React from "react";
 import skillsData from "./skillsData.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHandPointRight } from "@fortawesome/free-solid-svg-icons";
+import MediaQuery from 'react-responsive'
 const Skills = () => {
+  
   const poitHand = <FontAwesomeIcon icon={faHandPointRight} />;
   const langueg = skillsData[0].languages.map((langu) => (
     <li>
@@ -15,7 +17,7 @@ const Skills = () => {
       {poitHand} {program}{" "}
     </li>
   ));
-  return (
+  return (<MediaQuery minDeviceWidth={1224} device={{ deviceWidth: 1600 }}>
     <div className="skills">
       {" "}
       <div className="skill-word">
@@ -29,7 +31,7 @@ const Skills = () => {
         <h2>languages</h2>
         <ul>{langueg} </ul>
       </div>
-    </div>
+    </div></MediaQuery>
   );
 };
 export default Skills;

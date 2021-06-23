@@ -1,0 +1,39 @@
+.GalaryFoto {
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+}
+.GalaryFoto .picture {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+  width: 18rem;
+  height: 15rem;
+  border-radius: 10%;
+}
+.GalaryFoto img:hover {
+  box-shadow: 10px 5px 5px rgb(100, 99, 99);
+}
+li:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+.link-button {
+  background-image: linear-gradient(
+    to left,
+    rgb(158, 141, 158),
+    rgb(199, 171, 218),
+    #b1beb7
+  );
+  width: 10rem;
+  height: 2rem;
+}
+.link-button:hover {
+  background-image: linear-gradient(
+    to left,
+    rgb(192, 177, 192),
+    rgb(169, 161, 175),
+    #7e9688
+  );
+  color: white;
+  border: 2px solid #00cec9;
+}
