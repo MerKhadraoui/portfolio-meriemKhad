@@ -13,7 +13,6 @@ function App() {
   const galeryData = Data.map((obj) => (
     <li key={obj.id} className="GalaryFoto">
       <div>
-        {" "}
         <img
           className="picture"
           src={`${process.env.PUBLIC_URL}/${obj.img}`}
@@ -21,7 +20,6 @@ function App() {
         />
       </div>
       <div>
-        {" "}
         <h2>{obj.title}</h2> <h3>{obj.text}</h3>
         <h4>{obj.techno} </h4>
         <a href={obj.link} target="_blank">
