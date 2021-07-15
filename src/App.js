@@ -22,7 +22,7 @@ function App() {
       <div>
         <h2>{obj.title}</h2> <h3>{obj.text}</h3>
         <h4>{obj.techno} </h4>
-        <a href={obj.link} target="_blank">
+        <a href={obj.link} target="_blank" rel="noreferrer">
           <button className="link-button">see more </button>{" "}
         </a>
       </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Slide, Fade } from "react-slideshow-image";
+import { Slide } from "react-slideshow-image";
 import Img from "./img.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCameraRetro } from "@fortawesome/free-solid-svg-icons";
@@ -30,6 +30,7 @@ const Home = () => {
                     <img
                       className="my-img"
                       src={`${process.env.PUBLIC_URL}/${obj.img}`}
+                      alt="image"
                       height="550"
                     />
                   </li>

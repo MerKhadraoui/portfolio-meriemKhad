@@ -22,7 +22,11 @@ const Footer = () => {
       {/* <Link to="/product" className="contact"> */}
       <li>
         {" "}
-        <a href="https://github.com/MerKhadraoui" target="_blank">
+        <a
+          href="https://github.com/MerKhadraoui"
+          target="_blank"
+          rel="noreferrer"
+        >
           {" "}
           {github} My GH
         </a>
@@ -33,6 +37,7 @@ const Footer = () => {
         <a
           href="https://www.linkedin.com/in/meriem-khadraoui-a93b24107/"
           target="_blank"
+          rel="noreferrer"
         >
           {linked} LinkedIn{" "}
         </a>
@@ -45,7 +50,12 @@ const Footer = () => {
         <a href="miyakhad@gmail.com">e-mail</a>
       </li> */}
       {/* </Link> */}
-      <Link to="./pdf/miyakhad-cv.pdf" target="_blank" download>
+      <Link
+        to="./pdf/miyakhad-cv.pdf"
+        target="_blank"
+        download
+        rel="noreferrer"
+      >
         <li> CV PDF{pdf}</li>
       </Link>
       <div>

@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapPin } from "@fortawesome/free-solid-svg-icons";
 const AboutMe = () => {
   const listIcon = <FontAwesomeIcon icon={faMapPin} />;
-  const text = "About Me";
+  // const text = "About Me";
   // const testToArr = text.split("").map((char, i) => (
   //   <div className="words">
   //     <li key={i}>
@@ -14,7 +14,6 @@ const AboutMe = () => {
 
   return (
     <div className="about">
-      <img src="" />
       <div className="words">
         <h1>About Me </h1>
       </div>
